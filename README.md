@@ -79,14 +79,16 @@ Filtering of the data is planned to be done in the following manner:
 Using a custom Python script, the extracted data will be analyized to:  
 1. Identify the terrorism hotspots via the extracted data from GTD.
 
-2. Identify the political terrorism hotspots via the extracted data from CC, RL, and UCDP.
+2. Identify the political instability hotspots via the extracted data from CC, RL, and UCDP.
 
 
 The classification of hotspots will be done in accordance with a classification method that will be developed by me. The classification method is as of right now undecided and will take its final form after the careful analysis of the extracted data. As an example:  
 
 - Terrorism hotspots can be classified using a straightforward threshold-based system. Countries exceeding a predefined number of X attacks per year and Y casualties due to terrorism can be categorized as hotspots.
 
-- Political instability hotspots can be classified using a point-based scoring system, where each predetermined criterion contributes a weighted score. Countries exceeding a certain threshold will be categorized as political instability hotspots.
+- Political instability hotspots can be classified using a point-based scoring system, where each predetermined criterion contributes a weighted score. Countries exceeding a certain threshold will be categorized as political instability hotspots.  
+
+- The findings from each dataset's exploratory data analysis (EDA), along with the metrics used to identify hotspots, will be documented in corresponding Markdown files.
 
 ### 3. Piecing Together the Findings
 
