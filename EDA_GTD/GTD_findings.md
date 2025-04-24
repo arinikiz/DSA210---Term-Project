@@ -1,3 +1,7 @@
+
+🟥**Important**🟥  
+**I am unable to share the GTD dataset as per the licensing agreement. The dataset can be accessed from the provided [link](https://www.start.umd.edu/gtd-download).**
+
 ### Global Terrorism Database (GTD)
 
 [Terrorism, in its broadest sense, is the use of violence against non-combatants to achieve political or ideological aims.](https://en.wikipedia.org/wiki/Terrorism#:~:text=Terrorism%2C%20in%20its%20broadest%20sense%2C%20is%20the%20use%20of%20violence%20against%20non%2Dcombatants%20to%20achieve%20political%20or%20ideological%20aims.)  
