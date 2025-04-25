@@ -5,13 +5,15 @@ Analysis of the relationship between political instability and terrorism as part
 🟥**DISCLAMIER**:🟥    
 **This study is conducted with an academic and analytical approach, aiming to understand the relationships between terrorism, governance, and political instability. The findings, interpretations, and conclusions presented are purely for research purposes and do not reflect any political stance or advocacy. This project unequivocally recognizes terrorism as a threat to stability and security, and any references to terrorist activities are solely for analytical purposes to contribute to a deeper understanding of their origins, aiding in the development of more effective prevention strategies.**  
 
+🟢**LLM USAGE:** Large Language Models (LLMs) were utilized solely to assist with report writing. All data analysis, development of custom Python scripts, and hypothesis testing were conducted independently without any assistance from LLMs; every line of code was written by me🟢
+
 
 ## Overview
 
 Terrorism remains one of the most pressing threats in the modern world, prompting extensive research over the years to uncover its underlying causes. Discovering these causes is imperative for developing proactive and preventative strategies rather than reactive, event-driven responses.  
 
 In this regard throughout the course of a few months, using data visualization and statistical tools, I aim to examine"the extent to which political instability contributes to fueling terrorist activities worldwide. By the end of this project, I seek to answer a fundamental question: 
-> Does terrorism increase before instability rises, or does instability lead to more terrorism ?
+> Does political instability leads to increased terrorism ?
 
 In order to reach an accurate conclusion, multiple datasets will be used from trusted, non-biased sources:
 
@@ -99,7 +101,7 @@ In order to reach an accurate conclusion, multiple datasets will be used from tr
 ## Updated Methodology
 
 Prior to conducting exploratory data analysis (EDA), an initial tentative methodology was proposed to address the research question:
->  Does terrorism increase before instability rises, or does instability lead to more terrorism ?
+>  Does political instability leads to increased terrorism ?
 
 Initially, this methodology described potential metrics and approaches for identifying Terrorism and Political Instability Hotspots to explore their causal relationship. However, following comprehensive exploratory analysis, significant revisions were made to refine and streamline this methodology into its final form.
 
@@ -113,6 +115,7 @@ Therefore, the use of UCDP data was limited to analyzing intrastate conflicts (c
 
 In the course of the analysis, country-specific data for Türkiye was extracted. Türkiye was identified as a terrorism hotspot according to the evolving methodology. Further exploration of Türkiye's data provided an opportunity to deepen understanding of the datasets and to test the refined methodology.
 
+**Note:** Findings and remarks for EDA analysis have been recorded in MarkDown files corresponding to each data set. (For instance, report on remarks and findings of the EDA analysis on GTD can be accessed from EDA_GTD >> GTD_findings.md)
 
 
 To maintain analytical clarity and manageability without compromising accuracy, the revised methodology is outlined as follows:
