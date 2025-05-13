@@ -125,9 +125,10 @@ To maintain analytical clarity and manageability without compromising accuracy, 
    *Rationale:* Frequency of attacks provides a reliable, consistent metric for defining terrorism hotspots and supports longitudinal analysis.
 
 2. **Select Sample Countries**  
-   Randomly choose at least **five countries** from the identified terrorism hotspots for deeper analysis.
+   Randomly choose a country from the identified terrorism hotspots for deeper analysis.  
+   In the case of this study **Turkiye was chosen for deeper analysis**.
 
-3. **For Each Selected Country:**
+3. **For The Selected Country:**
    - Extract additional information from the UCDP to be used as an aid, specifically:
      - Conflicts that **started**, **ended**, or were **ongoing** between 2000 and 2020.
      - **Annual conflict intensity** levels from 2000 to 2020.
@@ -138,11 +139,14 @@ To maintain analytical clarity and manageability without compromising accuracy, 
    Conduct hypothesis testing to assess the relationship between trends in terrorism and political instability for each country.
 
 5. **Reach a Final Conclusion**  
-   After analyzing at least five countries, synthesize findings and apply appropriate statistical analysis methods to answer the central research question.
+   Based on the findings and the methodology used, reach a final conclusion on whether political instability leads to increased terrorism.
 
 
 
-## Next Steps
+## Conclusion
 
-The analysis for Turkey has been completed. At least four additional countries will undergo the same rigorous analytical procedure. Final conclusions will integrate findings across multiple national contexts to robustly address the central research question.
-  
+The analysis presented in Hypothesis Testing >> test_turkiye.ipynb demonstrates that for every lag (representing the number of previous observations used to predict the subsequent value) the p-value derived from the Chi-squared test consistently remains well above the significance threshold of 0.05.
+
+Although the figures visually suggest a potential relationship between the RL and CC percentiles, the statistical evidence is not strong enough to reject the null hypothesis; in other words, the analysis does not confirm that political instability has a significant effect on the level of terrorism.
+
+It is essential to acknowledge that both terrorism and political instability are inherently complex phenomena. Reducing these issues to a few quantitative metrics might oversimplify their dynamics. Therefore, while numbers and data give useful insights, it's also important to include human-focused perspectives that look at history, society, and global politics. Future research could improve by using more detailed data, better methods to find cause-and-effect, and combining ideas from different fields to better understand these complex issues.
