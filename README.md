@@ -150,3 +150,28 @@ The analysis presented in Hypothesis Testing >> test_turkiye.ipynb demonstrates 
 Although the figures visually suggest a potential relationship between the RL and CC percentiles, the statistical evidence is not strong enough to reject the null hypothesis; in other words, the analysis does not confirm that political instability has a significant effect on the level of terrorism.
 
 It is essential to acknowledge that both terrorism and political instability are inherently complex phenomena. Reducing these issues to a few quantitative metrics might oversimplify their dynamics. Therefore, while numbers and data give useful insights, it's also important to include human-focused perspectives that look at history, society, and global politics. Future research could improve by using more detailed data, better methods to find cause-and-effect, and combining ideas from different fields to better understand these complex issues.
+
+
+## Additional Analysis: Linear Regression Model on Türkiye
+
+As part of the deeper investigation into terrorism and governance, a **linear regression model** was also developed to assess whether political instability indicators help explain terrorist activity within a specific national context.
+
+For this purpose, **Türkiye** was selected as a case study, focusing on the years **2000 to 2020**. The model uses two key governance metrics from the World Bank:
+
+- **Rule of Law (RL)** – percentile rank  
+- **Control of Corruption (CC)** – percentile rank  
+
+The goal was to predict the **annual number of terrorist attacks**, using data from the **Global Terrorism Database (GTD)**.
+
+### Model Findings
+- **R² Score**: 0.298 → The model explains about 30% of the variation in terrorist attack counts.
+- **Coefficients**:
+  - `RL`: −15.59 → Lower Rule of Law is associated with more attacks.
+  - `CC`: +8.92 → Shows a weak positive association.
+- **Intercept**: 416.05
+
+### Summary
+The results suggest that **weaker legal systems (lower RL)** are linked to higher terrorism levels in Türkiye, supporting the idea that good governance can reduce instability. However, the model has limitations and cannot account for sudden spikes or all underlying causes. These findings demonstrate the potential value of combining **quantitative methods** with **context-specific analysis** in exploring complex issues like terrorism.
+
+For full details, refer to the notebook:  
+`Hypothesis Testing >> test_turkiye.ipynb`
